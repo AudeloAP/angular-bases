@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { CounterModule } from './counter/counter.module';
 
 import { AppComponent } from './app.component';
-import { CounterComponent } from './counter/component/counter/counter.comonent';
-import { HeroComponent } from './heroes/hero/hero.component';
-import { ListComponent } from './heroes/list/list.component';
 import { HerosModule } from './heroes/heros.module';
+import { DbzModule } from './dbz/dbz.module';
+// import { CounterComponent } from './counter/component/counter/counter.comonent';
+// import { HeroComponent } from './heroes/hero/hero.component';
+// import { ListComponent } from './heroes/list/list.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HerosModule } from './heroes/heros.module';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HerosModule
+    HerosModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
